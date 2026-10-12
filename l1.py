@@ -6,7 +6,6 @@ WHITE = '\x1B[47m'
 BLUE = '\x1B[44m'
 RESET = '\x1B[0m'
 START = '\x1B[1G'
-ERASE = '\x1B[2K'
 RED = '\u001b[41m'
 
 def draw_flag():
