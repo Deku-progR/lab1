@@ -61,9 +61,9 @@ def make_diagram():
     file.close()
     print(f'Nice numbers: [{RED}{' '*(len(nice)//5)}{RESET} {round(100*len(nice)/(len(nice)+len(odd)),2)}%]')
     print(f'Odd numbers: [{BLUE}{' '*(len(odd)//5)}{RESET} {round(100*len(odd)/(len(nice)+len(odd)),2)}%]')
-#move()
+
 
 make_diagram()
-
+#move()
 #draw_pattern()
 #draw_flag()
